@@ -1,23 +1,25 @@
 {
-  "name": "gatsby-starter-ghost",
-  "description": "A starter template to build lightning fast websites with Ghost and Gatsby",
-  "version": "2.0.0",
+  "name": "obol-blog",
+  "description": "A Gatsby React frontend for building a custom static blog on top of Ghost CMS.",
+  "version": "0.0.1",
   "license": "MIT",
-  "author": "Ghost Foundation",
-  "homepage": "https://docs.ghost.org/api/gatsby/",
+  "author": "Obol Technologies Inc",
+  "homepage": "https://blog.obol.tech",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tryghost/gatsby-starter-ghost.git"
+    "url": "git+https://github.com/ObolNetwork/obol-blog.git"
   },
   "engines": {
     "node": ">= 12.13.0"
   },
   "bugs": {
-    "url": "https://github.com/tryghost/gatsby-starter-ghost/issues"
+    "url": "https://github.com/ObolNetwork/obol-blog/issues"
   },
   "keywords": [
     "gatsby",
-    "ghost"
+    "ghost",
+    "obol",
+    "ethereum"
   ],
   "main": "n/a",
   "scripts": {

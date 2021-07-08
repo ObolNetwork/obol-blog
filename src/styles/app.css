@@ -22,9 +22,10 @@ what's here to work the way you'd like it to.
 :root {
 
     /* Colours */
-    --color-primary: #3eb0ef;
-    --color-base: #15171A;
-    --color-secondary: #5B7A81;
+    --color-primary: #37606b;
+    --color-base: #fff;
+    --color-dark: #15171A;
+    --color-secondary: #19314b;
     --color-border: #c7d5d8;
     --color-bg: #f5f5f5;
 
@@ -458,7 +459,7 @@ h4,
 h5,
 h6 {
     margin-top: 0;
-    color: var(--color-base);
+    color: var(--color-dark);
     line-height: 1.15;
     font-weight: 700;
     text-rendering: optimizeLegibility;
@@ -665,15 +666,16 @@ h6 {
     padding-top: 20px;
     padding-bottom: 20px;
     color: #fff;
-    background: var(--color-base);
+    background: rgba(255, 255, 255, 0.7);
     background-position: center;
     background-size: cover;
 }
 
 .site-nav-item {
     display: inline-block;
+    font-weight: 700;
     padding: 5px 10px;
-    color: #fff;
+    color: #000;
     opacity: 0.7;
 }
 
@@ -716,12 +718,13 @@ h6 {
 .site-banner-title {
     margin: 0;
     padding: 0;
-    color: #fff;
+    color: #000;
     font-size: 4rem;
     line-height: 1.3em;
 }
 
 .site-banner-desc {
+    color: #000;
     margin: 5px 0 0 0;
     padding: 0;
     font-size: 2.4rem;
@@ -743,9 +746,10 @@ h6 {
 .site-nav-button {
     display: inline-block;
     padding: 5px 10px;
-    border: #fff 1px solid;
-    color: #fff;
+    border: #000 1px solid;
+    color: #000;
     font-size: 1.3rem;
+    font-weight: 700;
     line-height: 1em;
     border-radius: var(--radius);
     opacity: 0.7;
@@ -987,7 +991,7 @@ h6 {
     padding: 20px 0 40px 0;
     color: rgba(255,255,255,0.7);
     font-size: 1.3rem;
-    background: var(--color-base);
+    background: var(--color-dark);
 }
 
 .site-foot-nav {
@@ -1012,6 +1016,11 @@ h6 {
 
 .site-foot-nav-right a:last-child {
     padding-right: 0;
+}
+
+.site-foot-icon {
+    height: 15px;
+    margin: -5px 0 0;
 }
 
 
