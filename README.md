@@ -1,8 +1,10 @@
 # Obol Blog
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9299f008-6f9b-4e25-bb78-b38c1a0fae82/deploy-status)](https://app.netlify.com/sites/obol-technologies-inc/deploys)
+
 An Obol Blog frontend built with [Ghost](https://ghost.org) & [Gatsby](https://gatsbyjs.org)
 
-**Site:** https://blog.obol.tech/
+**Site:** https://blog.obol.tech
 
 &nbsp;
 
