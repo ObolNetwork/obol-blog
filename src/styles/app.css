@@ -735,8 +735,9 @@ h6 {
 }
 
 .site-banner-logo {
-    background-image: url("../../static/images/obollogoblack.svg");
+    background-image: url("../images/obollogoblack.svg");
     background-position: 50%;
+    background-color: transparent;
     background-repeat: no-repeat;
     background-origin: padding-box;
     width: 100%;
