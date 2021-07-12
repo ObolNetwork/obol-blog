@@ -15,7 +15,10 @@ import { Link } from 'gatsby'
 const Navigation = ({ data, navClass }) => (
     <>
         {data.map((navItem, i) => {
-            if (navItem.url.match(/^\s?http(s?)/gi)) {
+            if (navItem.url.match(/^\s?http(s?)\:\/\/blog.obol.tech/gi)) {
+                return <Link className={navClass} to={navItem.url} key={i}>{navItem.label}</Link>
+            }
+            else if (navItem.url.match(/^\s?http(s?)/gi)) {
                 return <a className={navClass} href={navItem.url} key={i} target="_blank" rel="noopener noreferrer">{navItem.label}</a>
             } else {
                 return <Link className={navClass} to={navItem.url} key={i}>{navItem.label}</Link>
