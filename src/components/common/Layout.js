@@ -22,6 +22,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
     const site = data.allGhostSettings.edges[0].node
     const twitterUrl = site.twitter ? `https://twitter.com/${site.twitter.replace(/^@/, ``)}` : null
     const facebookUrl = site.facebook ? `https://www.facebook.com/${site.facebook.replace(/^\//, ``)}` : null
+    const secondaryNav = site.secondary_navigation ? site.secondary_navigation : null
 
     return (
         <>
@@ -87,7 +88,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                             <img className="site-foot-icon" src="/images/icons/obolwhite.svg" alt="Obol Logo" /> <Link to="/">{site.title}</Link> © 2021 
                             </div>
                             <div className="site-foot-nav-right">
-                                <Navigation data={site.navigation} navClass="site-foot-nav-item" />
+                                <Navigation data={secondaryNav} navClass="site-foot-nav-item" />
                             </div>
                         </div>
                     </footer>
