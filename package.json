@@ -1,7 +1,7 @@
 {
   "name": "obol-blog",
   "description": "A Gatsby React frontend for building a custom static blog on top of Ghost CMS.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
   "author": "Obol Technologies Inc",
   "homepage": "https://blog.obol.tech",

@@ -5,7 +5,6 @@ import { Link, StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import { Navigation } from '.'
-import config from '../../utils/siteConfig'
 
 // Styles
 import '../../styles/app.css'
@@ -85,7 +84,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     <footer className="site-foot">
                         <div className="site-foot-nav container">
                             <div className="site-foot-nav-left">
-                            <img className="site-foot-icon" src="/images/icons/obolwhite.svg" alt="Obol Logo" /> <Link to="/">{site.title}</Link> © 2021 
+                                <img className="site-foot-icon" src="/images/icons/obolwhite.svg" alt="Obol Logo" /> <Link to="/">{site.title}</Link> © 2021 
                             </div>
                             <div className="site-foot-nav-right">
                                 <Navigation data={secondaryNav} navClass="site-foot-nav-item" />
